@@ -9,7 +9,7 @@ concurrency:
 jobs:
   ci:
     name: Build
-    runs-on: 	windows-2019
+    runs-on: windows-2019
 
     strategy:
       fail-fast: false
@@ -54,16 +54,12 @@ jobs:
             "${{ github.workspace }}/triplets_overlay/x64-windows-static-release.cmake" `
             -Value "set(VCPKG_BUILD_TYPE release)"
           # clear buildtrees after each package installation to reduce disk space requirements
-          $packages = `
-            "openssl:x64-windows-static-release",
-            "zlib:x64-windows-static-release"
           ${{ env.RUNVCPKG_VCPKG_ROOT }}/vcpkg.exe upgrade `
             --overlay-triplets="${{ github.workspace }}/triplets_overlay" `
             --no-dry-run
           ${{ env.RUNVCPKG_VCPKG_ROOT }}/vcpkg.exe install `
             --overlay-triplets="${{ github.workspace }}/triplets_overlay" `
-            --clean-after-build `
-            $packages
+            --clean-after-build
 
       - name: Install boost
         run: |
