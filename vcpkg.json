@@ -8,8 +8,7 @@
     },
     {
       "name": "openssl",
-      "platform": "windows & static & x64",
-      "version>=": "1.1.1#2"
+      "platform": "windows & static & x64"
     }
   ],
   "overrides": [
