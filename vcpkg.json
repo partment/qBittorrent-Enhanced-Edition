@@ -11,7 +11,7 @@
       "platform": "windows & static & x64"
     }
   ],
-  "builtin-baseline": "a2d8a7cbb15cac91d6c59cd967ef9d85105832c3",
+  "builtin-baseline": "d953973cfbfeaf8022f5219fbabb0bdf9defb706",
   "overrides": [
     {
       "name": "openssl",

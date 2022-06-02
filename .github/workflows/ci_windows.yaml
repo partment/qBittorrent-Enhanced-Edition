@@ -39,6 +39,7 @@ jobs:
         with:
           vcpkgDirectory: C:/vcpkg
           doNotUpdateVcpkg: true  # the preinstalled vcpkg is updated regularly
+          doNotCache: true
 
       - name: Install dependencies from vcpkg
         run: |
