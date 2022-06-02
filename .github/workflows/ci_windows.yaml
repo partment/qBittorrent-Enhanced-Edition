@@ -39,7 +39,6 @@ jobs:
         with:
           vcpkgDirectory: C:/vcpkg
           doNotUpdateVcpkg: true  # the preinstalled vcpkg is updated regularly
-          doNotCache: true
 
       - name: Install dependencies from vcpkg
         run: |
@@ -55,6 +54,9 @@ jobs:
             "${{ github.workspace }}/triplets_overlay/x64-windows-static.cmake" `
             -Value "set(VCPKG_BUILD_TYPE release)"
           # clear buildtrees after each package installation to reduce disk space requirements
+          ${{ env.RUNVCPKG_VCPKG_ROOT }}/vcpkg.exe upgrade `
+            --overlay-triplets="${{ github.workspace }}/triplets_overlay" `
+            --no-dry-run
           ${{ env.RUNVCPKG_VCPKG_ROOT }}/vcpkg.exe install `
             --overlay-triplets="${{ github.workspace }}/triplets_overlay" `
             --clean-after-build
