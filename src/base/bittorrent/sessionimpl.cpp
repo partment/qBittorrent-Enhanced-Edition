@@ -517,7 +517,7 @@ SessionImpl::SessionImpl(QObject *parent)
     , m_isAutoUpdateTrackersEnabled(BITTORRENT_SESSION_KEY(u"AutoUpdateTrackersEnabled"_qs), false)
     , m_seedingLimitTimer {new QTimer {this}}
     , m_resumeDataTimer {new QTimer {this}}
-    , m_ioThread {new QThread {this}}
+    , m_ioThread {new QThread}
     , m_recentErroredTorrentsTimer {new QTimer {this}}
 #if (QT_VERSION < QT_VERSION_CHECK(6, 0, 0))
     , m_networkManager {new QNetworkConfigurationManager {this}}
@@ -569,8 +569,8 @@ SessionImpl::SessionImpl(QObject *parent)
 #endif
 
     m_fileSearcher = new FileSearcher;
-    m_fileSearcher->moveToThread(m_ioThread);
-    connect(m_ioThread, &QThread::finished, m_fileSearcher, &QObject::deleteLater);
+    m_fileSearcher->moveToThread(m_ioThread.get());
+    connect(m_ioThread.get(), &QThread::finished, m_fileSearcher, &QObject::deleteLater);
     connect(m_fileSearcher, &FileSearcher::searchFinished, this, &SessionImpl::fileSearchFinished);
 
     m_ioThread->start();
@@ -612,11 +612,8 @@ SessionImpl::~SessionImpl()
     // we delete lt::session
     delete Net::PortForwarder::instance();
 
-    qDebug("Deleting the session");
+    qDebug("Deleting libtorrent session...");
     delete m_nativeSession;
-
-    m_ioThread->quit();
-    m_ioThread->wait();
 }
 
 bool SessionImpl::isDHTEnabled() const
