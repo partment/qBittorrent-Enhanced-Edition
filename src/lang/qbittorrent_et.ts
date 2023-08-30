@@ -88,8 +88,8 @@
     </message>
     <message>
         <location filename="../gui/aboutdialog.cpp" line="69"/>
-        <source>Copyright %1 2006-2022 The qBittorrent project</source>
-        <translation>Autoriõigus %1 2006-2022 Projekt qBittorrent</translation>
+        <source>Copyright %1 2006-2023 The qBittorrent project</source>
+        <translation>Autoriõigus %1 2006-2023 Projekt qBittorrent</translation>
     </message>
     <message>
         <location filename="../gui/aboutdialog.cpp" line="70"/>
@@ -3299,12 +3299,12 @@ Toetab formaate: S01E01, 1x1, 2017.12.31 ja 31.12.2017 (kuupäevade formaate toe
     <message>
         <location filename="../gui/mainwindow.ui" line="407"/>
         <location filename="../gui/mainwindow.ui" line="441"/>
-        <location filename="../gui/mainwindow.cpp" line="1576"/>
+        <location filename="../gui/mainwindow.cpp" line="1591"/>
         <source>Show</source>
         <translation>Näita</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1745"/>
+        <location filename="../gui/mainwindow.cpp" line="1760"/>
         <source>Check for program updates</source>
         <translation>Kontrolli programmi uuendusi</translation>
     </message>
@@ -3319,322 +3319,327 @@ Toetab formaate: S01E01, 1x1, 2017.12.31 ja 31.12.2017 (kuupäevade formaate toe
         <translation>Kui sulle meeldib qBittorrent, palun annetage!</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1825"/>
-        <location filename="../gui/mainwindow.cpp" line="1827"/>
+        <location filename="../gui/mainwindow.cpp" line="1840"/>
+        <location filename="../gui/mainwindow.cpp" line="1842"/>
         <source>Execution Log</source>
         <translation>Toimingute logi</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="608"/>
+        <location filename="../gui/mainwindow.cpp" line="619"/>
         <source>Clear the password</source>
         <translation>Eemalda see parool</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="168"/>
+        <location filename="../gui/mainwindow.cpp" line="173"/>
         <source>&amp;Set Password</source>
         <translation>&amp;Määra Parool</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="137"/>
+        <location filename="../gui/mainwindow.cpp" line="142"/>
         <source>Preferences</source>
         <translation>Eelistused</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="169"/>
+        <location filename="../gui/mainwindow.cpp" line="174"/>
         <source>&amp;Clear Password</source>
         <translation>&amp;Eemalda parool</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="191"/>
+        <location filename="../gui/mainwindow.cpp" line="196"/>
         <source>Filter torrent names...</source>
         <translation>Filtreeri torrenti nimed...</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="214"/>
+        <location filename="../gui/mainwindow.cpp" line="219"/>
         <source>Transfers</source>
         <translation>Ülekanded</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="405"/>
-        <location filename="../gui/mainwindow.cpp" line="1222"/>
+        <location filename="../gui/mainwindow.cpp" line="416"/>
+        <location filename="../gui/mainwindow.cpp" line="1233"/>
         <source>qBittorrent is minimized to tray</source>
         <translation>qBittorrent on minimeeritud tegumireale</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="405"/>
-        <location filename="../gui/mainwindow.cpp" line="1129"/>
-        <location filename="../gui/mainwindow.cpp" line="1222"/>
+        <location filename="../gui/mainwindow.cpp" line="416"/>
+        <location filename="../gui/mainwindow.cpp" line="1140"/>
+        <location filename="../gui/mainwindow.cpp" line="1233"/>
         <source>This behavior can be changed in the settings. You won&apos;t be reminded again.</source>
         <translation>Seda käitumist saab muuta seadetest. Teid ei teavita sellest rohkem.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="506"/>
+        <location filename="../gui/mainwindow.cpp" line="517"/>
         <source>Icons Only</source>
         <translation>Ainult ikoonid</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="507"/>
+        <location filename="../gui/mainwindow.cpp" line="518"/>
         <source>Text Only</source>
         <translation>Ainult tekst</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="508"/>
+        <location filename="../gui/mainwindow.cpp" line="519"/>
         <source>Text Alongside Icons</source>
         <translation>Text Ikoonide Kõrval</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="509"/>
+        <location filename="../gui/mainwindow.cpp" line="520"/>
         <source>Text Under Icons</source>
         <translation>Text Ikoonide Alla</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="510"/>
+        <location filename="../gui/mainwindow.cpp" line="521"/>
         <source>Follow System Style</source>
         <translation>Järgi Süsteemi Stiili</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="591"/>
-        <location filename="../gui/mainwindow.cpp" line="969"/>
+        <location filename="../gui/mainwindow.cpp" line="602"/>
+        <location filename="../gui/mainwindow.cpp" line="980"/>
         <source>UI lock password</source>
         <translation>UI luku parool</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="592"/>
-        <location filename="../gui/mainwindow.cpp" line="970"/>
+        <location filename="../gui/mainwindow.cpp" line="603"/>
+        <location filename="../gui/mainwindow.cpp" line="981"/>
         <source>Please type the UI lock password:</source>
         <translation>Palun sisesta UI luku parool:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="609"/>
+        <location filename="../gui/mainwindow.cpp" line="620"/>
         <source>Are you sure you want to clear the password?</source>
         <translation>Kindel, et soovid eemaldada selle parooli?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="668"/>
+        <location filename="../gui/mainwindow.cpp" line="679"/>
         <source>Use regular expressions</source>
         <translation>Kasuta regulaarseid väljendeid</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="690"/>
+        <location filename="../gui/mainwindow.cpp" line="701"/>
         <source>Search</source>
         <translation>Otsi</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="707"/>
+        <location filename="../gui/mainwindow.cpp" line="718"/>
         <source>Transfers (%1)</source>
         <translation>Ülekanded (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="895"/>
+        <location filename="../gui/mainwindow.cpp" line="906"/>
         <source>Recursive download confirmation</source>
         <translation>Korduv allalaadimise kinnitamine</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="902"/>
+        <location filename="../gui/mainwindow.cpp" line="913"/>
         <source>Never</source>
         <translation>Mitte kunagi</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="992"/>
+        <location filename="../gui/mainwindow.cpp" line="1003"/>
         <source>qBittorrent was just updated and needs to be restarted for the changes to be effective.</source>
         <translation>qBittorrent oli just uuendatud ja on vajalik taaskäivitada muudatuse rakendamiseks.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1129"/>
+        <location filename="../gui/mainwindow.cpp" line="1140"/>
         <source>qBittorrent is closed to tray</source>
         <translation>qBittorrent on suletud tegumireale</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1149"/>
+        <location filename="../gui/mainwindow.cpp" line="1160"/>
         <source>Some files are currently transferring.</source>
         <translation>Osa faile on hetkel edastamisel.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1149"/>
+        <location filename="../gui/mainwindow.cpp" line="1160"/>
         <source>Are you sure you want to quit qBittorrent?</source>
         <translation>Kindel, et soovid täielikult sulgeda qBittorrenti?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1151"/>
+        <location filename="../gui/mainwindow.cpp" line="1162"/>
         <source>&amp;No</source>
         <translation>&amp;Ei</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1152"/>
+        <location filename="../gui/mainwindow.cpp" line="1163"/>
         <source>&amp;Yes</source>
         <translation>&amp;Jah</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1153"/>
+        <location filename="../gui/mainwindow.cpp" line="1164"/>
         <source>&amp;Always Yes</source>
         <translation>&amp;Alati Jah</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1362"/>
+        <location filename="../gui/mainwindow.cpp" line="1373"/>
         <source>Options saved.</source>
         <translation>Sätted salvestati.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1513"/>
+        <location filename="../gui/mainwindow.cpp" line="1528"/>
         <source>%1/s</source>
         <comment>s is a shorthand for seconds</comment>
         <translation>%1/s</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1680"/>
-        <location filename="../gui/mainwindow.cpp" line="1686"/>
+        <location filename="../gui/mainwindow.cpp" line="1695"/>
+        <location filename="../gui/mainwindow.cpp" line="1701"/>
         <source>Missing Python Runtime</source>
         <translation>Puudub Python Runtime</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1760"/>
+        <location filename="../gui/mainwindow.cpp" line="1775"/>
         <source>qBittorrent Update Available</source>
         <translation>qBittorrenti Uuendus Saadaval</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1681"/>
+        <location filename="../gui/mainwindow.cpp" line="1696"/>
         <source>Python is required to use the search engine but it does not seem to be installed.
 Do you want to install it now?</source>
         <translation>Python on vajalik, et kasutada otsingu mootorit, tundub nagu poleks teil see installitud.
 Soovite koheselt paigaldada?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1687"/>
+        <location filename="../gui/mainwindow.cpp" line="1702"/>
         <source>Python is required to use the search engine but it does not seem to be installed.</source>
         <translation>Python on vajalik, et kasutada otsingu mootorit, tundub nagu poleks teil see installitud.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1699"/>
-        <location filename="../gui/mainwindow.cpp" line="1706"/>
+        <location filename="../gui/mainwindow.cpp" line="1714"/>
+        <location filename="../gui/mainwindow.cpp" line="1721"/>
         <source>Old Python Runtime</source>
         <translation>Vana Python Runtime</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1757"/>
+        <location filename="../gui/mainwindow.cpp" line="1772"/>
         <source>A new version is available.</source>
         <translation>Uus versioon on saadaval.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1758"/>
+        <location filename="../gui/mainwindow.cpp" line="1773"/>
         <source>Do you want to download %1?</source>
         <translation>Kas sa soovid allalaadida %1?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1759"/>
+        <location filename="../gui/mainwindow.cpp" line="1774"/>
         <source>Open changelog...</source>
         <translation>Ava muudatustelogi...</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1781"/>
+        <location filename="../gui/mainwindow.cpp" line="1796"/>
         <source>No updates available.
 You are already using the latest version.</source>
         <translation>Uuendused pole saadaval.
 Juba kasutate uusimat versiooni.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1744"/>
+        <location filename="../gui/mainwindow.cpp" line="1759"/>
         <source>&amp;Check for Updates</source>
         <translation>&amp;Kontrolli Uuendusi</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1700"/>
+        <location filename="../gui/mainwindow.cpp" line="1715"/>
         <source>Your Python version (%1) is outdated. Minimum requirement: %2.
 Do you want to install a newer version now?</source>
         <translation>Teie Pythoni versioon (%1) on liiga vana. Vajalik on vähemalt: %2.
 Kas soovite koheselt installida uue versiooni?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1707"/>
+        <location filename="../gui/mainwindow.cpp" line="1722"/>
         <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
 Minimum requirement: %2.</source>
         <translation>Teie Pythoni versioon (%1) on vana. Palun uuendage uusimale versioonile, et toimiksid otsingu mootorid.
 Vajalik on vähemalt: %2.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1926"/>
+        <location filename="../gui/mainwindow.cpp" line="1942"/>
+        <source>This is the last supported version for your Windows version.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1956"/>
         <source>Checking for Updates...</source>
         <translation>Kontrollin uuendusi...</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1927"/>
+        <location filename="../gui/mainwindow.cpp" line="1957"/>
         <source>Already checking for program updates in the background</source>
         <translation>Juba kontrollin programmi uuendusi tagaplaanil</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1960"/>
+        <location filename="../gui/mainwindow.cpp" line="1990"/>
         <source>Download error</source>
         <translation>Allalaadimise tõrge</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1961"/>
+        <location filename="../gui/mainwindow.cpp" line="1991"/>
         <source>Python setup could not be downloaded, reason: %1.
 Please install it manually.</source>
         <translation>Pythoni setupit ei saanud allalaadida, selgitus: %1.
 Palun installige see iseseisvalt.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="598"/>
-        <location filename="../gui/mainwindow.cpp" line="978"/>
+        <location filename="../gui/mainwindow.cpp" line="609"/>
+        <location filename="../gui/mainwindow.cpp" line="989"/>
         <source>Invalid password</source>
         <translation>Sobimatu parool</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="598"/>
+        <location filename="../gui/mainwindow.cpp" line="609"/>
         <source>The password must be at least 3 characters long</source>
         <translation>Parooli pikkus peab olema vähemalt 3 tähemärki</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="634"/>
-        <location filename="../gui/mainwindow.cpp" line="647"/>
-        <location filename="../gui/mainwindow.cpp" line="649"/>
+        <location filename="../gui/mainwindow.cpp" line="645"/>
+        <location filename="../gui/mainwindow.cpp" line="658"/>
+        <location filename="../gui/mainwindow.cpp" line="660"/>
         <source>RSS (%1)</source>
         <translation>RSS (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="896"/>
+        <location filename="../gui/mainwindow.cpp" line="907"/>
         <source>The torrent &apos;%1&apos; contains .torrent files, do you want to proceed with their downloads?</source>
         <translation>Torrent &apos;%1&apos; sisaldab .torrent faile, soovite jätkata nende allalaadimist?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="978"/>
+        <location filename="../gui/mainwindow.cpp" line="989"/>
         <source>The password is invalid</source>
         <translation>Parool on sobimatu</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1522"/>
+        <location filename="../gui/mainwindow.cpp" line="1537"/>
         <source>DL speed: %1</source>
         <comment>e.g: Download speed: 10 KiB/s</comment>
         <translation>AL kiirus: %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1523"/>
+        <location filename="../gui/mainwindow.cpp" line="1538"/>
         <source>UP speed: %1</source>
         <comment>e.g: Upload speed: 10 KiB/s</comment>
         <translation>ÜL kiirus: %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1529"/>
+        <location filename="../gui/mainwindow.cpp" line="1544"/>
         <source>[D: %1, U: %2] qBittorrent %3</source>
         <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
         <translation>[A: %1, Ü: %2] qBittorrent %3</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1576"/>
+        <location filename="../gui/mainwindow.cpp" line="1591"/>
         <source>Hide</source>
         <translation>Peida</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1147"/>
+        <location filename="../gui/mainwindow.cpp" line="1158"/>
         <source>Exiting qBittorrent</source>
         <translation>Suletakse qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1328"/>
+        <location filename="../gui/mainwindow.cpp" line="1339"/>
         <source>Open Torrent Files</source>
         <translation>Ava Torrenti Failid</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1329"/>
+        <location filename="../gui/mainwindow.cpp" line="1340"/>
         <source>Torrent Files</source>
         <translation>Torrenti Failid</translation>
     </message>
@@ -8081,42 +8086,42 @@ Rohkem teid ei teavitata.</translation>
         <translation>Juurkausta ei saa kustutada.</translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="244"/>
+        <location filename="../base/rss/rss_session.cpp" line="245"/>
         <source>Couldn&apos;t read RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="253"/>
+        <location filename="../base/rss/rss_session.cpp" line="254"/>
         <source>Couldn&apos;t parse RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="260"/>
+        <location filename="../base/rss/rss_session.cpp" line="261"/>
         <source>Couldn&apos;t load RSS session data. File: &quot;%1&quot;. Error: Invalid data format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="290"/>
+        <location filename="../base/rss/rss_session.cpp" line="292"/>
         <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: URL is required.</source>
         <translation>Nurjus RSS-voogu laadimine. Voog: &quot;%1&quot;. Selgitus: URL on vajalik.</translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="301"/>
+        <location filename="../base/rss/rss_session.cpp" line="303"/>
         <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: UID is invalid.</source>
         <translation>Ei saanud RSS-voogu laadida. Voog: &quot;%1&quot;. Põhjus: UID on kehtetu.</translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="308"/>
+        <location filename="../base/rss/rss_session.cpp" line="310"/>
         <source>Duplicate RSS feed found. UID: &quot;%1&quot;. Error: Configuration seems to be corrupted.</source>
         <translation>Leitakse dubleeritud RSS-voog. UID: &quot;%1&quot;. Viga: Konfiguratsioon näib olevat rikutud.</translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="329"/>
+        <location filename="../base/rss/rss_session.cpp" line="332"/>
         <source>Couldn&apos;t load RSS item. Item: &quot;%1&quot;. Invalid data format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../base/rss/rss_session.cpp" line="344"/>
+        <location filename="../base/rss/rss_session.cpp" line="346"/>
         <source>Corrupted RSS list, not loading it.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10827,334 +10832,334 @@ Palun vali teine nimi ja proovi uuesti.</translation>
 <context>
     <name>TransferListWidget</name>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="662"/>
+        <location filename="../gui/transferlistwidget.cpp" line="674"/>
         <source>Column visibility</source>
         <translation>Veeru nähtavus</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="631"/>
+        <location filename="../gui/transferlistwidget.cpp" line="643"/>
         <source>Recheck confirmation</source>
         <translation>Ülekontrollimise kinnitamine</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="631"/>
+        <location filename="../gui/transferlistwidget.cpp" line="643"/>
         <source>Are you sure you want to recheck the selected torrent(s)?</source>
         <translation>Kindel, et soovid üle kontrollida valitud torrent(eid)?</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="894"/>
+        <location filename="../gui/transferlistwidget.cpp" line="912"/>
         <source>Rename</source>
         <translation>Ümbernimeta</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="894"/>
+        <location filename="../gui/transferlistwidget.cpp" line="912"/>
         <source>New name:</source>
         <translation>Uus nimi:</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="339"/>
+        <location filename="../gui/transferlistwidget.cpp" line="351"/>
         <source>Choose save path</source>
         <translation>Vali salvestamise asukoht</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="369"/>
+        <location filename="../gui/transferlistwidget.cpp" line="381"/>
         <source>Confirm pause</source>
         <translation>Kinnitus, enne pausimist</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="370"/>
+        <location filename="../gui/transferlistwidget.cpp" line="382"/>
         <source>Would you like to pause all torrents?</source>
         <translation>Kas soovite pausile panna kõik torrentid?</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="385"/>
+        <location filename="../gui/transferlistwidget.cpp" line="397"/>
         <source>Confirm resume</source>
         <translation>Kinnitus, enne jätkamist</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="386"/>
+        <location filename="../gui/transferlistwidget.cpp" line="398"/>
         <source>Would you like to resume all torrents?</source>
         <translation>Kas soovite jätkata kõikide torrentitega?</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="611"/>
+        <location filename="../gui/transferlistwidget.cpp" line="623"/>
         <source>Unable to preview</source>
         <translation>Ei saanud teha eelvaadet</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="611"/>
+        <location filename="../gui/transferlistwidget.cpp" line="623"/>
         <source>The selected torrent &quot;%1&quot; does not contain previewable files</source>
         <translation>Valitud torrent &quot;%1&quot; ei sisalda eelvaadetavaid faile</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="688"/>
+        <location filename="../gui/transferlistwidget.cpp" line="700"/>
         <source>Resize columns</source>
         <translation>Muuda veergude suurust</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="697"/>
+        <location filename="../gui/transferlistwidget.cpp" line="709"/>
         <source>Resize all non-hidden columns to the size of their contents</source>
         <translation>Muuda kõikide mitte-peidetud veergude suurust sobitumaks vastavalt nende sisule</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="727"/>
+        <location filename="../gui/transferlistwidget.cpp" line="739"/>
         <source>Enable automatic torrent management</source>
         <translation>Lülita sisse automaatne torrentite haldamine</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="728"/>
+        <location filename="../gui/transferlistwidget.cpp" line="740"/>
         <source>Are you sure you want to enable Automatic Torrent Management for the selected torrent(s)? They may be relocated.</source>
         <translation>Oled kindel, et soovid sisselülitada automaatse torrenti halduse valitud torrenti(tele)? Nende torrentite asukohti võidakse muuta.</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="746"/>
+        <location filename="../gui/transferlistwidget.cpp" line="758"/>
         <source>Add Tags</source>
         <translation>Lisa silte</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="791"/>
+        <location filename="../gui/transferlistwidget.cpp" line="803"/>
         <source>Choose folder to save exported .torrent files</source>
         <translation>Määra kaust kuhu salvestakse eksporditud .torrent failid</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="805"/>
+        <location filename="../gui/transferlistwidget.cpp" line="817"/>
         <source>Export .torrent file failed. Torrent: &quot;%1&quot;. Save path: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
         <translation>Nurjus .torrent faili eksportimine. Torrent: &quot;%1&quot;. Salvestuse asukoht: &quot;%2&quot;. Selgitus: &quot;%3&quot;</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="813"/>
+        <location filename="../gui/transferlistwidget.cpp" line="825"/>
         <source>A file with the same name already exists</source>
         <translation>Sama nimega fail on juba olemas </translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="829"/>
+        <location filename="../gui/transferlistwidget.cpp" line="841"/>
         <source>Export .torrent file error</source>
         <translation>Viga .torrent faili eksportimisega</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="840"/>
+        <location filename="../gui/transferlistwidget.cpp" line="852"/>
         <source>Remove All Tags</source>
         <translation>Eemalda Kõik Sildid</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="840"/>
+        <location filename="../gui/transferlistwidget.cpp" line="852"/>
         <source>Remove all tags from selected torrents?</source>
         <translation>Eemalda kõik sildid valitud torrentitelt?</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="855"/>
+        <location filename="../gui/transferlistwidget.cpp" line="867"/>
         <source>Comma-separated tags:</source>
         <translation>Komaga eraldatud sildid:</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="864"/>
+        <location filename="../gui/transferlistwidget.cpp" line="876"/>
         <source>Invalid tag</source>
         <translation>Sobimatu silt</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="865"/>
+        <location filename="../gui/transferlistwidget.cpp" line="877"/>
         <source>Tag name: &apos;%1&apos; is invalid</source>
         <translation>Sildi nimi: &apos;%1&apos; on sobimatu</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="935"/>
+        <location filename="../gui/transferlistwidget.cpp" line="953"/>
         <source>&amp;Resume</source>
         <comment>Resume/start the torrent</comment>
         <translation>&amp;Jätka</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <location filename="../gui/transferlistwidget.cpp" line="955"/>
         <source>&amp;Pause</source>
         <comment>Pause the torrent</comment>
         <translation>&amp;Pane Pausile</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="939"/>
+        <location filename="../gui/transferlistwidget.cpp" line="957"/>
         <source>Force Resu&amp;me</source>
         <comment>Force Resume/start the torrent</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="943"/>
+        <location filename="../gui/transferlistwidget.cpp" line="961"/>
         <source>Pre&amp;view file...</source>
         <translation>Fai&amp;li eelvaade...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="945"/>
+        <location filename="../gui/transferlistwidget.cpp" line="963"/>
         <source>Torrent &amp;options...</source>
         <translation>Torrenti &amp;valikud...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="947"/>
+        <location filename="../gui/transferlistwidget.cpp" line="965"/>
         <source>Open destination &amp;folder</source>
         <translation>Ava sihtkoha &amp;kaust</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="949"/>
+        <location filename="../gui/transferlistwidget.cpp" line="967"/>
         <source>Move &amp;up</source>
         <comment>i.e. move up in the queue</comment>
         <translation>Liiguta &amp;üles</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="951"/>
+        <location filename="../gui/transferlistwidget.cpp" line="969"/>
         <source>Move &amp;down</source>
         <comment>i.e. Move down in the queue</comment>
         <translation>Liiguta &amp;alla</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="953"/>
+        <location filename="../gui/transferlistwidget.cpp" line="971"/>
         <source>Move to &amp;top</source>
         <comment>i.e. Move to top of the queue</comment>
         <translation>Liiguta kõige &amp;üles</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="955"/>
+        <location filename="../gui/transferlistwidget.cpp" line="973"/>
         <source>Move to &amp;bottom</source>
         <comment>i.e. Move to bottom of the queue</comment>
         <translation>Liiguta täitsa &amp;alla</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="957"/>
+        <location filename="../gui/transferlistwidget.cpp" line="975"/>
         <source>Set loc&amp;ation...</source>
         <translation>Määra a&amp;sukoht...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="959"/>
+        <location filename="../gui/transferlistwidget.cpp" line="977"/>
         <source>Force rec&amp;heck</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="961"/>
+        <location filename="../gui/transferlistwidget.cpp" line="979"/>
         <source>Force r&amp;eannounce</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="963"/>
+        <location filename="../gui/transferlistwidget.cpp" line="981"/>
         <source>&amp;Magnet link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="965"/>
+        <location filename="../gui/transferlistwidget.cpp" line="983"/>
         <source>Torrent &amp;ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Torrenti &amp;ID</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="967"/>
+        <location filename="../gui/transferlistwidget.cpp" line="985"/>
         <source>&amp;Name</source>
         <translation>&amp;Nimi</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="969"/>
+        <location filename="../gui/transferlistwidget.cpp" line="987"/>
         <source>Info &amp;hash v1</source>
         <translation>Info &amp;räsi v1</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="971"/>
+        <location filename="../gui/transferlistwidget.cpp" line="989"/>
         <source>Info h&amp;ash v2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="975"/>
+        <location filename="../gui/transferlistwidget.cpp" line="993"/>
         <source>Re&amp;name...</source>
         <translation>Üm&amp;bernimeta...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="984"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1002"/>
         <source>Edit trac&amp;kers...</source>
         <translation>Muuda j&amp;älitajaid...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="986"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1004"/>
         <source>E&amp;xport .torrent...</source>
         <translation>E&amp;kspordi .torrent...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1132"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1150"/>
         <source>Categor&amp;y</source>
         <translation>Kategoor&amp;ia</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1134"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1152"/>
         <source>&amp;New...</source>
         <comment>New category...</comment>
         <translation>&amp;Uus...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1136"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1154"/>
         <source>&amp;Reset</source>
         <comment>Reset category</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1157"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1175"/>
         <source>Ta&amp;gs</source>
         <translation>Sil&amp;did</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1159"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1177"/>
         <source>&amp;Add...</source>
         <comment>Add / assign multiple tags...</comment>
         <translation>&amp;Lisa...</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1161"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1179"/>
         <source>&amp;Remove All</source>
         <comment>Remove all tags</comment>
         <translation>&amp;Eemalda Kõik</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1243"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1261"/>
         <source>&amp;Queue</source>
         <translation>&amp;Järjekord</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1250"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1268"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopeeri</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1259"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1277"/>
         <source>Exported torrent is not necessarily the same as the imported</source>
         <translation>Eksporditud torrent ei ole täielikult sama mis imporditud</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="977"/>
+        <location filename="../gui/transferlistwidget.cpp" line="995"/>
         <source>Download in sequential order</source>
         <translation>Järjestikuses allalaadimine</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="830"/>
+        <location filename="../gui/transferlistwidget.cpp" line="842"/>
         <source>Errors occurred when exporting .torrent files. Check execution log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="941"/>
+        <location filename="../gui/transferlistwidget.cpp" line="959"/>
         <source>&amp;Remove</source>
         <comment>Remove the torrent</comment>
         <translation>&amp;Eemalda</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="979"/>
+        <location filename="../gui/transferlistwidget.cpp" line="997"/>
         <source>Download first and last pieces first</source>
         <translation>Lae alla esmalt esimene ja viimane tükk</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="981"/>
+        <location filename="../gui/transferlistwidget.cpp" line="999"/>
         <source>Automatic Torrent Management</source>
         <translation>Automaatne Torrenti Haldamine</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="982"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1000"/>
         <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
         <translation>Automaatne režiim tähendab, et mitmed torrenti omadused (sh salvestamise koht) määratakse seostatud kategooriaga</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="1236"/>
+        <location filename="../gui/transferlistwidget.cpp" line="1254"/>
         <source>Can not force reannounce if torrent is Paused/Queued/Errored/Checking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="973"/>
+        <location filename="../gui/transferlistwidget.cpp" line="991"/>
         <source>Super seeding mode</source>
         <translation>Super jagamise režiim</translation>
     </message>
