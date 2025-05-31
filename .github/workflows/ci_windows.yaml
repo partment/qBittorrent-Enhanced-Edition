@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        libt_version: ["2.0.9", "1.2.19"]
+        libt_version: ["2.0.11", "1.2.20"]
 
     env:
       boost_path: "${{ github.workspace }}/../boost"
@@ -72,16 +72,17 @@ jobs:
       - name: Install boost
         run: |
           aria2c `
-            "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.7z" `
+            "https://archives.boost.io/release/1.86.0/source/boost_1_86_0.7z" `
             -d "${{ runner.temp }}" `
             -o "boost.7z"
           7z x "${{ runner.temp }}/boost.7z" -o"${{ github.workspace }}/.."
           move "${{ github.workspace }}/../boost_*" "${{ env.boost_path }}"
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v4
         with:
-          version: "6.5.0"
+          version: "6.9.0"
+          arch: win64_msvc2022_64
           archives: qtbase qtsvg qttools
           cache: true
 
@@ -166,7 +167,7 @@ jobs:
           copy libtorrent/build/compile_commands.json upload/cmake/libtorrent
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: qBittorrent-CI_Windows-x64_libtorrent-${{ matrix.libt_version }}
           path: upload
