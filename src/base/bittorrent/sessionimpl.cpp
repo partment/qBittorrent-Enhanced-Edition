@@ -1836,6 +1836,15 @@ void SessionImpl::initializeNativeSession()
     // turn them off before `lt::session` ctor to avoid split second effects
     pack.set_bool(lt::settings_pack::enable_upnp, false);
     pack.set_bool(lt::settings_pack::enable_natpmp, false);
+    // Enhanced: connect to peers more aggressively
+    pack.set_int(lt::settings_pack::torrent_connect_boost, 100);
+    pack.set_int(lt::settings_pack::max_peerlist_size, 10000);
+    pack.set_int(lt::settings_pack::min_reconnect_time, 10);
+    pack.set_int(lt::settings_pack::max_failcount, 5);
+    pack.set_int(lt::settings_pack::peer_connect_timeout, 10);
+    pack.set_int(lt::settings_pack::connections_slack, 50);
+    pack.set_bool(lt::settings_pack::smooth_connects, false);
+    pack.set_int(lt::settings_pack::connect_seed_every_n_download, 1);
 
 #ifdef QBT_USES_LIBTORRENT2
     // preserve the same behavior as in earlier libtorrent versions
