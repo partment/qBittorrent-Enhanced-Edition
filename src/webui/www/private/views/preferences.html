@@ -2935,9 +2935,9 @@ Use ';' to split multiple entries. Can use wildcard '*'.)QBT_TR[CONTEXT=OptionsD
                     document.getElementById("startPaused").checked = pref.start_paused;
                     document.getElementById("sessionShutdownTimeout").value = pref.shutdown_timeout;
                     document.getElementById("autoBanUnknownPeer").checked = pref.auto_ban_unknown_peer;
-                    document.getElementById("autoBanBittorrentPlayer").checked = pref.auto_ban_unknown_peer;
-                    document.getElementById("shadowBan").checked = pref.auto_ban_unknown_peer;
-                    document.getElementById("shadowBannedIPs").value = pref.auto_ban_unknown_peer;
+                    document.getElementById("autoBanBittorrentPlayer").checked = pref.auto_ban_bt_player_peer;
+                    document.getElementById("shadowBan").checked = pref.shadow_ban_enabled;
+                    document.getElementById("shadowBannedIPs").value = pref.shadow_banned_IPs;
                     // libtorrent section
                     document.getElementById("bdecodeDepthLimit").value = pref.bdecode_depth_limit;
                     document.getElementById("bdecodeTokenLimit").value = pref.bdecode_token_limit;
@@ -3461,7 +3461,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.)QBT_TR[CONTEXT=OptionsD
             settings["shutdown_timeout"] = shutdownTimeout;
             settings["auto_ban_unknown_peer"] = document.getElementById("autoBanUnknownPeer").checked;
             settings["auto_ban_bt_player_peer"] = document.getElementById("autoBanBittorrentPlayer").checked;
-            settings["shadow_ban_enabled"] = document.getElementById("shadowBan").checked;
+            settings["shadow_ban"] = document.getElementById("shadowBan").checked;
             settings["shadow_banned_IPs"] = document.getElementById("shadowBannedIPs").value;
 
             // libtorrent section
