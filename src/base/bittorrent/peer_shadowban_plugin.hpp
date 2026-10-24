@@ -4,13 +4,7 @@
 #include <libtorrent/extensions.hpp>
 #include <libtorrent/peer_connection_handle.hpp>
 
-#if (LIBTORRENT_VERSION_NUM >= 20000)
-using client_data = lt::client_data_t;
-#else
-using client_data = void *;
-#endif
-
-using filter_function = std::function<bool(const lt::peer_info &, bool, bool *)>;
+#include "peer_filter_plugin.hpp"
 
 class peer_shadowban_plugin final : public lt::peer_plugin
 {
@@ -45,7 +39,7 @@ protected:
         lt::peer_info info;
         m_peer_connection.get_peer_info(info);
 
-        QString peer_ip = QString::fromStdString(info.ip.address().to_string());
+        QString peer_ip = QString::fromStdString(peer_endpoint(info).address().to_string());
         QStringList shadowbannedIPs =
             CachedSettingValue<QStringList>(u"State/ShadowBannedIPs"_s, QStringList(), Algorithm::sorted<QStringList>).get();
 

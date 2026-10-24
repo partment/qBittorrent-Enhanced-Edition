@@ -2,6 +2,7 @@
 
 #include <libtorrent/extensions.hpp>
 #include <libtorrent/peer_connection_handle.hpp>
+#include <libtorrent/peer_info.hpp>
 
 #if (LIBTORRENT_VERSION_NUM >= 20000)
 using client_data = lt::client_data_t;
@@ -11,6 +12,16 @@ using client_data = void*;
 
 using filter_function = std::function<bool(const lt::peer_info&, bool, bool*)>;
 using action_function = std::function<void(lt::peer_connection_handle)>;
+
+// lt::peer_info::ip is deprecated since libtorrent 2.1 and is gone when deprecated functions are disabled
+inline lt::tcp::endpoint peer_endpoint(const lt::peer_info& info)
+{
+#if (LIBTORRENT_VERSION_NUM >= 20100)
+  return info.remote_endpoint();
+#else
+  return info.ip;
+#endif
+}
 
 class peer_filter_plugin final : public lt::peer_plugin
 {
