@@ -1,60 +1,96 @@
-# qBittorrent - A BitTorrent client in Qt
+qBittorrent Enhanced Edition
+------------------------------------------
+[Important Note for user and tracker operators](NOTE.md)
+********************************
+# Features:
+1. Auto Ban Xunlei, QQ, Baidu, Xfplay, DLBT and Offline downloader
 
-[![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent/actions/workflows/ci_ubuntu.yaml/badge.svg)](https://github.com/qbittorrent/qBittorrent/actions)
-[![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
+2. _Auto Ban Unknown Peer from China_ Option (Default: OFF)
 
-qBittorrent is a [BitTorrent] client programmed in C++ / Qt that uses
-[libtorrent] (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+3. Auto Ban BitTorrent Media Player Peer Option (Default: OFF)
 
-It aims to be a good alternative to all other BitTorrent clients
-out there. qBittorrent is fast, stable and provides Unicode
+4. Peer whitelist/blacklist
+********************************
+### Description:
+qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+
+It aims to be a good alternative to all other bittorrent clients
+out there. qBittorrent is fast, stable and provides unicode
 support as well as many features.
 
-The free [IP to Country Lite database] by [DB-IP] is used for resolving the countries of peers.
-The database is licensed under the [Creative Commons Attribution 4.0 International License].
+The free [IP to Country Lite database](https://db-ip.com/db/download/ip-to-country-lite) by [DB-IP](https://db-ip.com/) is used for resolving the countries of peers. The database is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
-[Creative Commons Attribution 4.0 International License]: https://creativecommons.org/licenses/by/4.0/
-[DB-IP]: https://db-ip.com/
-[IP to Country Lite database]: https://db-ip.com/db/download/ip-to-country-lite
-[libtorrent]: https://libtorrent.org/
+### Installation:
 
-## Installation
+Refer to the [INSTALL](INSTALL) file.
 
-Refer to the [INSTALL] file.
+## Repository
 
-[INSTALL]: INSTALL
+If you are using a desktop Linux distribution without any special demands, you can use AppImage from release page.
 
-## License
+Latest AppImage download: [qBittorrent-Enhanced-Edition-x86_64.AppImage](https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/latest/download/qBittorrent-Enhanced-Edition-x86_64.AppImage)
 
-Refer to the [COPYING] file.
+#### Arch Linux (Maintainer: [c0re100](https://github.com/c0re100))
 
-[COPYING]: COPYING
+[AUR](https://aur.archlinux.org/packages/qbittorrent-enhanced-git/)
 
-## PGP Public Key
+[nox AUR](https://aur.archlinux.org/packages/qbittorrent-enhanced-nox-git/)
 
-Starting from v3.3.4 all source tarballs and binaries are signed. \
-The key currently used is 4096R/[5B7CC9A2](https://pgp.mit.edu/pks/lookup?op=get&search=0x6E4A2D025B7CC9A2) with fingerprint `D8F3DA77AAC6741053599C136E4A2D025B7CC9A2`. \
-You can also [download it](https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc). \
-**PREVIOUSLY** the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer **only**: 4096R/[520EC6F6](https://pgp.mit.edu/pks/lookup?op=get&search=0xA1ACCAE4520EC6F6) with fingerprint `F4A5FD201B117B1C2AB590E2A1ACCAE4520EC6F6`.
+#### Debian (Maintainer: [Kolcha](https://github.com/Kolcha))
 
-## Misc
+[GUI](https://software.opensuse.org//download.html?project=home%3Anikoneko%3Atest&package=qbittorrent-enhanced)
 
+[nox](https://software.opensuse.org//download.html?project=home%3Anikoneko%3Atest&package=qbittorrent-enhanced-nox)
+
+The one [repository](https://build.opensuse.org/project/show/home:nikoneko:test) contains all variants, links to specific packages are provided for convenience.
+
+#### openSUSE (Maintainer: [openSUSE Chinese Community](https://github.com/openSUSE-zh))
+
+[openSUSE repo](https://build.opensuse.org/package/show/home:opensuse_zh/qBittorrent-Enhanced-Edition)
+
+#### Ubuntu (Maintainer: [poplite](https://github.com/poplite))
+
+[PPA](https://launchpad.net/~poplite/+archive/ubuntu/qbittorrent-enhanced)
+
+#### macOS (Homebrew) (Maintainer: [AlexaraWu](https://github.com/AlexaraWu))
+```
+brew install c0re100-qbittorrent
+```
+
+#### Windows
+
+Windows 10 & 11 (Maintainer: [c0re100](https://github.com/c0re100))
+
+```
+winget install c0re100.qBittorrent-Enhanced-Edition
+```
+
+Chocolatey (Maintainer: [iYato](https://github.com/iYato))
+
+```
+choco install qbittorrent-enhanced
+```
+
+Scoop
+
+```
+scoop bucket add extras
+scoop install qbittorrent-enhanced
+```
+
+### Misc:
 For more information please visit:
-<https://www.qbittorrent.org>
+https://www.qbittorrent.org
 
-Check out our wiki at:
-<https://wiki.qbittorrent.org>
+or our wiki here:
+https://wiki.qbittorrent.org
 
 Use the forum for troubleshooting before reporting bugs:
-<https://forum.qbittorrent.org>
+https://forum.qbittorrent.org
 
 Please report any bug (or feature request) to:
-<https://bugs.qbittorrent.org>
+https://bugs.qbittorrent.org
 
-Official IRC channel:
-[#qbittorrent on irc.libera.chat](ircs://irc.libera.chat:6697/qbittorrent)
-
------------------------------------------------------
-
-sledgehammer999 \<<sledgehammer999@qbittorrent.org>\>
+For enhanced features bug(such as Auto Ban, API, Auto Update Tracker lists...), please report to:
+https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues
