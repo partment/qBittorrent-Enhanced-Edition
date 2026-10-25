@@ -1845,6 +1845,18 @@ void SessionImpl::initializeNativeSession()
     pack.set_int(lt::settings_pack::connections_slack, 50);
     pack.set_bool(lt::settings_pack::smooth_connects, false);
     pack.set_int(lt::settings_pack::connect_seed_every_n_download, 1);
+    // Enhanced: upload more
+    // Announce a piece 200 ms before it is expected to finish, so peers can request it from us earlier
+    pack.set_int(lt::settings_pack::predictive_piece_announce, 200);
+    // With queueing on, rank seeding torrents only by demand (leechers per seed) instead of
+    // putting torrents below 2.0 ratio first. 0 means the ratio goal is never "not met".
+    pack.set_int(lt::settings_pack::share_ratio_limit, 0);
+    // Let the kernel queue more unsent data per socket for faster uploads (TCP_NOTSENT_LOWAT, Linux and macOS only)
+    pack.set_int(lt::settings_pack::send_not_sent_low_watermark, 512 * 1024);
+    // From zakkarry's ltConfig preset: faster downloads from fast peers, tolerate slow trackers
+    pack.set_int(lt::settings_pack::max_peer_recv_buffer_size, 5 * 1024 * 1024);
+    pack.set_int(lt::settings_pack::request_timeout, 10);
+    pack.set_int(lt::settings_pack::tracker_receive_timeout, 20);
 
 #ifdef QBT_USES_LIBTORRENT2
     // preserve the same behavior as in earlier libtorrent versions
